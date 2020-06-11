@@ -1,0 +1,5 @@
+f1 =open("pop1.jpg","rb")
+f2 = open("pop2.jpg","w+b")
+byt= f1.read()
+f2.write(byt)
+print("Printing popi")
